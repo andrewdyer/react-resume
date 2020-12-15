@@ -1,6 +1,6 @@
 import { ABOUT } from '../../constants/actions';
 
-const INITIAL_STATE = {
+export const INITIAL_STATE = {
     forename: null,
     surname: null,
     summary: null,

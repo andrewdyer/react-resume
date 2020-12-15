@@ -1,6 +1,6 @@
 import { INTERESTS } from '../../constants/actions';
 
-const INITIAL_STATE = {
+export const INITIAL_STATE = {
     interests: []
 };
 
