@@ -1,13 +1,13 @@
-body {
-    color: $gray-600;
-    padding-top: 54px;
-    @include body-font;
-}
+// Global styling for this template
 
-@media (min-width: 992px) {
+body {
+    padding-top: $navbar-base-height;
+    color: $gray-600;
+}
+@include media-breakpoint-up(lg) {
     body {
-        padding-left: $sidebar-base-width;
         padding-top: 0;
+        padding-left: $sidebar-base-width;
     }
 }
 
@@ -17,26 +17,21 @@ h3,
 h4,
 h5,
 h6 {
-    color: $gray-800;
-    font-weight: 700;
     text-transform: uppercase;
-    @include heading-font;
 }
 
 h1 {
-    font-size: 6rem;
-    line-height: 5.5rem;
-}
-
-h2 {
-    font-size: 3.5rem;
-}
-
-h3 {
-    font-size: 2rem;
+    line-height: 1;
 }
 
 p.lead {
     font-size: 1.15rem;
     font-weight: 400;
+}
+
+.subheading {
+    font-family: $headings-font-family;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.5rem;
 }

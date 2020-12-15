@@ -1,4 +1,4 @@
-# React Resume 
+# REACT RESUME
 
 ![alt text](https://live.staticflickr.com/65535/50246948998_e7b5d204e0_b.jpg "React Resume Preview")
 

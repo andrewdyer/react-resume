@@ -1,29 +1,19 @@
-// Import custom fonts
-@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700');
-@import url('https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i');
+// Import Google Fonts
+@import url(https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700);
+@import url(https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i);
 
-// Import custom variables
-@import './scss/variables';
+// Import variables
+@import "./scss/variables";
 
-// Import bootstrap
-@import '../node_modules/bootstrap/scss/bootstrap';
+// Import Bootstrap
+@import "~bootstrap/scss/bootstrap";
 
-// Import custom SCSS
-@import './scss/mixins';
-@import './scss/global';
+// Global CSS
+@import "./scss/global.scss";
 
-// Import custom components
-@import './components/common/ResumeItem/ResumeItem';
-@import './components/common/ResumeSection/ResumeSection';
-@import './components/common/SectionDivider/SectionDivider';
-@import './components/common/SectionHeading/SectionHeading';
-@import './components/common/SectionSubHeading/SectionSubHeading';
-@import './components/Navigation/Navigation';
-@import './components/Sections/AboutSection/AboutSection';
-@import './components/Sections/AwardsSection/AwardsSection';
-@import './components/Sections/EducationSection/EducationSection';
-@import './components/Sections/ExperienceSection/ExperienceSection';
-@import './components/Sections/InterestsSection/InterestsSection';
-@import './components/Sections/SkillsSection/SkillsSection';
-@import './components/SocialIcons/SocialIcons';
-@import './components/TechnologiesList/TechnologiesList';
+// Components
+@import "./scss/components/sidenav.scss";
+@import "./scss/components/icons.scss";
+
+// Sections
+@import "./scss/sections/resume-section.scss";
